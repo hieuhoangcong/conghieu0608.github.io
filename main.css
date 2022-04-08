@@ -9,7 +9,7 @@ html{
 }
 
 .main{
-    background: linear-gradient(to right top, #58aec3, #ccdde4);
+    background: url('https://thuthuatnhanh.com/wp-content/uploads/2020/09/hinh-nen-dong-powerpoint-ve-hoa-dep.gif');
 }
 
 .intro{
@@ -25,9 +25,6 @@ html{
     margin-top: 5%;
     padding:2rem;
 }
-
-/* Pháº§n avt tĂªn */
-
 .intro-user{
     display: flex;
     align-items: start;
@@ -100,7 +97,7 @@ html{
 }
 
 .tooltip{
-    background: #fff;
+    background: red;
     box-shadow: 0 10px 10px rgba(0,0,0, 0.1);
     font-size: 16px;
     border-radius:25px;
@@ -117,37 +114,6 @@ html{
     top:-40px;
     pointer-events: auto;
 }
-
-#tooltip-icon:hover,
-.intro-user-right__social-icon:hover .tooltip{
-    text-shadow: 0px -1px 0px -1px rgba(0,0,0,0, 0.4);
-}
-
-#tooltip-icon.facebook:hover,
-.intro-user-right__social-icon.facebook:hover .tooltip,
-.intro-user-right__social-icon.facebook:hover .tooltip::before{
-    background-color:#3B5999;
-}
-
-#tooltip-icon.tiktok:hover,
-.intro-user-right__social-icon.tiktok:hover .tooltip,
-.intro-user-right__social-icon.tiktok:hover .tooltip::before{
-    background-color:rgb(32, 1, 32);
-}
-
-#tooltip-icon.instagram:hover,
-.intro-user-right__social-icon.instagram:hover .tooltip,
-.intro-user-right__social-icon.instagram:hover .tooltip::before{
-    background-color:#e1306c;
-}
-
-#tooltip-icon.github:hover,
-.intro-user-right__social-icon.github:hover .tooltip,
-.intro-user-right__social-icon.github:hover .tooltip::before{
-    background-color:#333;
-}
-
-
 .tooltip::before{
     position: absolute;
     content: "";
@@ -177,8 +143,6 @@ html{
     line-height: 40px;
     font-size: 18px;
 }
-
-
 .intro-user-right__social-icon:hover .tooltip,
 .intro-user-right__social-icon:hover #tooltip-icon--icon{
     color:#fff;
@@ -216,9 +180,6 @@ html{
     margin-bottom: 4px;
     color:rgb(148, 146, 146);
 }
-
-
-
 .options,
 .extends{
     background: linear-gradient(to right bottom,
@@ -279,7 +240,6 @@ html{
 .option-item:last-child{
     margin-bottom: 0;
 }
-
 .option-item.active{
     background-image: linear-gradient(
 142.17deg,#4f93f1 6.66%,#de30fd 91.48%);
@@ -288,8 +248,6 @@ html{
 .active a{
     color: rgba(255, 255, 255, 0.8);
 }
-
-
 .option-item-icon{
     display: flex;
     flex-direction: column;
@@ -300,9 +258,9 @@ html{
     color: #456;
 }
 
-.extend{
-    list-style: none;
-    display:none;
+.extend.active{
+    display: block;
+}
 }
 
 .extend.active{
@@ -396,7 +354,6 @@ html{
     top:110%;
     border-radius:25px;
 }
-
 .extend-item--h3{
     font-size: 22px;
 }
@@ -460,7 +417,6 @@ html{
     display: inline-block;
     transition: background-color 0.6s ease; 
 }
-
 .prev,
 .next{
     position:absolute;
@@ -510,7 +466,6 @@ html{
     animation-name: fade;
     animation-duration: 1.2s;
 }
-  
 @-webkit-keyframes fade {
     from {opacity: .6}
     to {opacity: 1}
@@ -573,7 +528,6 @@ html{
     margin-right: 6px;
     margin-bottom: 8px;
 }
-
 .extend-item-text-title--h4{
     position: relative;
     color:rgb(47, 49, 59);
@@ -633,7 +587,6 @@ html{
     justify-content: space-between;
     transition: all 7s ease-in-out;
 }
-
 .container-skills-progress-bar p{
     opacity: 0.9;
     font-size: 14px;
@@ -697,9 +650,6 @@ html{
     display: flex;
     flex-direction: column;
 }
-
-
-
 .ententain-text a{
     text-decoration:none;
 }
@@ -831,51 +781,6 @@ input.progres{
 
 
 
-
-  .circle1,
-  .circle2,
-  .circle3,
-  .circle4,
-  .circle5,
-  .circle6,
-  .circle7{
-      background: white;
-      background: linear-gradient(to right bottom,
-       rgba(255, 255, 255, 0.6),
-       rgba(255, 255, 255, 0.2));
-      height: 14rem;
-      width: 14rem;
-      position: absolute;
-      border-radius: 50%;
-  }
-  .circle1{
-      top: 10%;
-      left: 4%;
-  }
-  .circle2{
-      top: 35%;
-      right: 6%;
-  }
-  .circle3{
-      bottom: -4%;
-      left: 24%;
-  }
-  .circle4{
-    bottom: -88%;
-    left: 10%;
-  }
-  .circle5{
-    bottom: -99%;
-    right: 4%;
-  }
-  .circle6{
-    bottom: -30%;
-    right: 10%;
-  }
-  .circle7{
-    bottom: -135%;
-    left: 36%;
-  }
 
 
 
